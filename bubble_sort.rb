@@ -26,7 +26,3 @@ def bubble_sort_by(arr)
   end
   return arr
 end
-
-p bubble_sort_by([4, 3, 78, 2, 0, 2]) { |left, right| right - left }
-
-# p bubble_sort([4, 3, 78, 2, 0, 2])
