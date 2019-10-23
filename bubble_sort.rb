@@ -5,7 +5,7 @@ def bubble_sort(unsordet_array)
       first_elment = unsordet_array[x]
       second_elment = unsordet_array[x + 1]
 
-      if (second_elment < first_elment)
+      if second_elment < first_elment
         temp_variable = unsordet_array[x]
         unsordet_array[x] = unsordet_array[x + 1]
         unsordet_array[x + 1] = temp_variable
