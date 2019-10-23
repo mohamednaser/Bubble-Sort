@@ -15,4 +15,18 @@ def bubble_sort(unsordetArray)
   return unsordetArray
 end
 
-p bubble_sort([4, 3, 78, 2, 0, 2])
+def bubble_sort_by(arr)
+  for i in 0...arr.size
+    for i in 0...arr.size-1
+      comparison = yield(arr[i], arr[i + 1])
+      if comparison > 0
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+      end
+    end
+  end
+  return arr
+end
+
+p bubble_sort_by([4, 3, 78, 2, 0, 2]) { |left, right| right - left }
+
+# p bubble_sort([4, 3, 78, 2, 0, 2])
