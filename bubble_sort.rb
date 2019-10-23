@@ -20,6 +20,7 @@ def bubble_sort_by(arr)
       comparison = yield(arr[i], arr[i + 1])
       if comparison.positive?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        next
       end
     end
   end
