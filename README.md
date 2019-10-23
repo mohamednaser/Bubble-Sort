@@ -1,15 +1,15 @@
 # Bubble Sort
 
-A project to implment bubble sort algorithem with ruby.
+A project to implement the bubble sort algorithm with ruby.
 
-[Click here for more information about Bubble Sort ](https://www.youtube.com/watch?v=8Kp-8OGwphY)
+[Click here for more information about Bubble Sort](https://www.youtube.com/watch?v=8Kp-8OGwphY).
 
 ## Authors
 
-This project was executed by the duo of :
+This project was developed by:
 
 - [Mohamed Naser](https://www.linkedin.com/in/mohamednaseramein/)
-- [Santiago Rodriguez](https://www.linkedin.com/in/santiago-andrés-308a5b190)
+- [Santiago Rodríguez](https://www.linkedin.com/in/santiago-andrés-308a5b190)
 
 ## Used Tools
 
