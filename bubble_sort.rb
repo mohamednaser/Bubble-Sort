@@ -18,7 +18,7 @@ def bubble_sort_by(arr)
   arr.size.times do
     (0...arr.size - 1).each do |i|
       comparison = yield(arr[i], arr[i + 1])
-      if comparison.positive? then arr[i], arr[i + 1] = arr[i + 1], arr[i] end
+      arr[i], arr[i + 1] = arr[i + 1], arr[i] if comparison.positive?
     end
   end
   arr
